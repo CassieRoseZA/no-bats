@@ -17,17 +17,10 @@
 	"entrypoints": {
 		"main": [
 			"amber.nobats.NoBats"
-		],
-		"client": [
-			"amber.nobats.NoBatsClient"
 		]
 	},
 	"mixins": [
-		"no-bats.mixins.json",
-		{
-			"config": "no-bats.client.mixins.json",
-			"environment": "client"
-		}
+		"no-bats.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.9",
